@@ -1,7 +1,7 @@
 # DLMS 
 "DLMS" (Driving License Management System) is an online driving license issuing service. This system helps customers get their license easier and faster, and driving school owners can advertise their course among the customers by posting classes in the courses section.
 
--SLIIT 1st year 2nd Semester Group Project-
+-2022|SLIIT - 1st year 2nd semester project-
 
 <h2><ul>-Login Credentials-</ul></h2>
 
