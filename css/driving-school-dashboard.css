@@ -1,0 +1,93 @@
+.column {
+    margin: 10px;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #f5f1f1;
+    text-align: center;
+}
+
+.column:hover{
+    box-shadow: 0 0 20px 0px rgba(160, 63, 63, 0.2);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column .content{
+    padding-top: 16%;
+}
+
+.column-4, .column-5, .column-6{
+    height: 150px;
+}
+
+.shortcut{
+    padding-top: 5%;
+}
+
+.shortcut h1{
+    cursor: pointer;
+}
+
+.shortcut h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.shortcut h1 a:hover{
+    color: rgb(63, 62, 62);
+}
+
+.content h1, .shortcut h1{
+    font-size: 25px;
+}
+
+.content h2{
+    font-size: 30px;
+}
+
+i{
+    padding-bottom: 20px;
+}
+
+#count{
+    color: red;
+    font-weight: 300;
+}
+
+.fa-solid{
+    color: #5582d6;
+}
+
+/* underline animation */
+
+.underline-animation {
+    display: inline-block;
+    position: relative;
+    color: rgb(63, 62, 62);
+}
+
+.underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(63, 62, 62);
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+}
+
+.underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+}

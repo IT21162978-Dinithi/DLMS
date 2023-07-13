@@ -1,0 +1,33 @@
+.setting-container{
+	width: 500px;
+}
+
+input[type=text], input[type=password], textarea{
+	padding: 15px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.setting-container [type=submit]{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.invalid-pass{
+	color: red;
+}
+
+input[placeholder], [placeholder], *[placeholder], textarea::placeholder{
+	font-size: 15px;
+}
+
+span{
+	color: red;
+	font-weight: bold;
+}
+
+.delete-account{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}

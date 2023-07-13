@@ -1,0 +1,94 @@
+.container .add-package-container{
+    width: 600px;
+}
+
+.add-package-container input[type=text], textarea, select{
+	padding: 15px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.add-package-container input[type=submit]{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.update-package-container input[type=text], textarea{
+	padding: 15px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+/* https://stackoverflow.com/questions/2610497/change-a-html5-inputs-placeholder-color-with-css */
+input[placeholder], [placeholder], *[placeholder], textarea::placeholder{
+	font-size: 15px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid #f1f1f1;
+}
+
+/* Add styles to the form container */
+.form-container {
+	max-width: 400px;
+	padding: 10px;
+	background-color: white;
+}
+
+/* styling pop up */
+.form-container h1{
+	text-align: center;
+}
+
+.first-row, .second-row, .third-row{
+	padding-bottom: 20px;
+}
+
+/* image add button */
+.inputFile::-webkit-file-upload-button {
+	visibility: hidden;
+}
+
+.inputFile::before {
+	content: 'Add Image';
+	display: inline-block;
+	background-color: rgba(255, 255, 255, .15);  
+    box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .1);
+    border: none;
+    border-radius: 5px;
+	padding: 5px 8px;
+	outline: none;
+	cursor: pointer;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#error-upload{
+	color: red;
+}
+
+/* package image */
+#updatePackageImage{
+	width: 540px;
+	height: 540px;
+	border: 2px solid black;
+}
+
+.section{
+	padding-bottom: 30px;
+}
+
+.section input[type=file]{
+	padding-top: 15px;
+}
+
+#update-title{
+	padding-bottom: 20px;
+}
