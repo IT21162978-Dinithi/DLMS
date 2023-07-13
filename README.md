@@ -7,19 +7,19 @@
 
 <h3>user account</h3>
 
-peter@gmail.com peter12345
+peter@gmail.com - peter12345
 
-ameesha@gmail.com 12345678
+ameesha@gmail.com - 12345678
 
-dinithi@gmail.com 12345678
+dinithi@gmail.com - 12345678
 
 <h3>admin</h3>
-admin@gmail.com admin123
+admin@gmail.com - admin123
 
 <h3>driving school</h3>
-rathnalearners@gmail.com rathna12345
+rathnalearners@gmail.com - rathna12345
 
-sunshine@gmail.com sunshine123
+sunshine@gmail.com - sunshine123
 
 <h2><ul>-Card Details-</ul></h2>
 
